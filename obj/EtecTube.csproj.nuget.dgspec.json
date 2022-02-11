@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jose.gallo\\Desktop\\EtecTube\\EtecTube.csproj": {}
+    "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jose.gallo\\Desktop\\EtecTube\\EtecTube.csproj": {
+    "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jose.gallo\\Desktop\\EtecTube\\EtecTube.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
         "projectName": "EtecTube",
-        "projectPath": "C:\\Users\\jose.gallo\\Desktop\\EtecTube\\EtecTube.csproj",
-        "packagesPath": "C:\\Users\\jose.gallo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jose.gallo\\Desktop\\EtecTube\\obj\\",
+        "projectPath": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
+        "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\EtecTube\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jose.gallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
