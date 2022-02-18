@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EtecTube</title>
     <link rel="stylesheet" href="~/css/site.css" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="~/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="~/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="~/img/favicon/site.webmanifest">
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    @await RenderSectionAsync("Styles", required: false)     
 </head>
 <body>
     <header class="header">
@@ -82,18 +83,5 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-
-    <script type="text/javascript">
-        function ShowHideSideBar(){
-            let sideBar = document.getElementById("sideBar");
-            if(sideBar.style.visibility === "visible"){
-                sideBar.style.visibility = "hidden";
-                sideBar.style.width = 0;
-            }else{
-                sideBar.style.visibility = "visible";
-                sideBar.style.width = "17%";
-            }
-        }
-    </script>
 </body>
 </html>
