@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <div class="logo left">
-            <i id="menu" class="material-icons">menu</i>
+            <i id="menu" class="material-icons" onClick="ShowHideSideBar()">menu</i>
             <a asp-action="Index" title="Página Inicial do EtecTube">
                 <img src="~/img/logo.png" alt="Logo EtecTube" />
             </a>
@@ -82,5 +82,18 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script type="text/javascript">
+        function ShowHideSideBar(){
+            let sideBar = document.getElementById("sideBar");
+            if(sideBar.style.visibility === "visible"){
+                sideBar.style.visibility = "hidden";
+                sideBar.style.width = 0;
+            }else{
+                sideBar.style.visibility = "visible";
+                sideBar.style.width = "17%";
+            }
+        }
+    </script>
 </body>
 </html>
