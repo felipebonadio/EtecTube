@@ -20,7 +20,20 @@ namespace EtecTube.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            Channel canal1 = new Channel(){
+                Id = new Guid(),
+                Name = "Ds Mucho Loko",
+                ChannelPicture = "~/img/avatar.png"
+            };            
+            Video video1 = new Video(){
+                Id = new Guid(),
+                Channel = canal1,
+                Name = "Carnaval na Etec",
+                Description = "Estamos todos querendo ir embora, estou com fome",
+                PublishedDate = DateTime.Parse("25/02/2021"),
+                Thumbnail = "~/img/video.jpg"
+            };
+            return View(video1);
         }
 
         public IActionResult Privacy()

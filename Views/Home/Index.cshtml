@@ -1,4 +1,5 @@
-﻿@{
+﻿@model EtecTube.Models.Video
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,16 +12,16 @@
         <!-- Início do Vídeo 1 -->
         <div class="video">
             <div class="thumbnail">
-                <img src="~/img/video.jpg" alt="Imagem do Vídeo" />
+                <img src="@Url.Content(Model.Thumbnail)" alt="@Model.Name" />
             </div>
             <div class="details">
                 <div class="author">
-                    <img src="~/img/avatar.png" alt="Canal" />
+                    <img src="@Url.Content(Model.Channel.ChannelPicture)" alt="@Model.Channel.Name" />
                 </div>
                 <div class="title">
-                    <h3>Título do Vídeo</h3>
-                    <a href="">Nome do Canal</a>
-                    <span>3M Visualizações • há 2 Meses</span>
+                    <h3>@Model.Name</h3>
+                    <a href="">@Model.Channel.Name</a>
+                    <span>3M Visualizações • @Model.PassedTime</span>
                 </div>
             </div>
         </div>
