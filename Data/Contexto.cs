@@ -18,6 +18,8 @@ namespace EtecTube.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            #region Identity Name Definition
             //Renomeia a tabela de usuários
             modelBuilder.Entity<User>(entity =>
             {
@@ -53,6 +55,21 @@ namespace EtecTube.Data
             {
                 entity.ToTable(name:"RoleClaims")
             });
+            #endregion    
+
+            #region  Populate Identity
+
+            #endregion
+
+            #region  Populate Channels
+
+            #endregion
+
+            #region Populate Videos
+
+            #endregion
+
+            
         }
     }
 }
