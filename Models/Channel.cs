@@ -19,5 +19,10 @@ namespace EtecTube.Models
         [StringLength(200)]
         [Display(Name = "Foto do Canal")]
         public string ChannelPicture { get; set; }
+
+        [Required]
+        public string UserId { get; set; }
+        [ForeignKey("UserId")]
+        public User user { get; set; }
     }
 }
