@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using EtecTube.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace EtecTube
 {
     public class Startup
@@ -23,6 +26,10 @@ namespace EtecTube
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string conexao = Configuration.GetConnectionString("Conexao");
+            services.AddDbContext<Contexto>(
+                options => options.UseMySql(conexao, ServerVersion.AutoDetect(conexao))
+            );
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 

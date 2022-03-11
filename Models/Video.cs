@@ -67,6 +67,5 @@ namespace EtecTube.Models
                     + (diff.Days > 1 ? "dias" : "dia");
         }
 
-
     }
 }
