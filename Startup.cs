@@ -8,9 +8,10 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
-using EtecTube.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using EtecTube.Data;
+using EtecTube.Models;
 
 namespace EtecTube
 {
@@ -30,7 +31,15 @@ namespace EtecTube
             services.AddDbContext<Contexto>(
                 options => options.UseMySql(conexao, ServerVersion.AutoDetect(conexao))
             );
+            // Add Idendity Service
+            services.AddIdentity<User, IdentityRole>(
+                options => options.SignIn.RequireConfirmedAccount = false
+            ).AddEntityFrameworkStores<Contexto>()
+            .AddDefaultUI()
+            .AddDefaultTokenProviders();
+
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +60,7 @@ namespace EtecTube
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -58,6 +68,7 @@ namespace EtecTube
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

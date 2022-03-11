@@ -10,12 +10,11 @@ namespace EtecTube.Models
         [StringLength(100)]
         public string FullName { get; set; }
 
-        [StringLength(100)]
+        [StringLength(20)]
         public string Nickname { get; set; }
 
         public int UserNameChangeLimit { get; set; } = 10;
 
         public byte[] ProfilePicture { get; set; }
-
     }
 }

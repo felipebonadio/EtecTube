@@ -6,34 +6,26 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EtecTube.Models;
+using Microsoft.EntityFrameworkCore;
+using EtecTube.Data;
 
 namespace EtecTube.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly Contexto _contexto;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, Contexto contexto)
         {
             _logger = logger;
+            _contexto = contexto;
         }
 
         public IActionResult Index()
-        {
-            Channel canal1 = new Channel() {
-                Id = new Guid(),
-                Name = "DS Teste Watch",
-                ChannelPicture = "~/img/avatar.png"
-            };
-            Video video1 = new Video(){
-                Id = new Guid(),
-                Channel = canal1,
-                Name = "Etec Depois do Carnaval",
-                Description = "Estamos todos querendo ir embora, estou com fome",
-                PublishedDate = DateTime.Parse("25/02/2021"),
-                Thumbnail = "~/img/video.jpg"
-            };
-            return View(video1);
+        {      
+            var videos = _contexto.Videos.Include(v=> v.Channel).ToList();
+            return View(videos);
         }
 
         public IActionResult Privacy()

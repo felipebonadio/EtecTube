@@ -1,4 +1,4 @@
-﻿@model EtecTube.Models.Video
+﻿@model IEnumerable<EtecTube.Models.Video>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -8,25 +8,25 @@
 }
 
 <div class="videos">
-    @for (int i = 0; i < 20; i++)  {
-        <!-- Início do Vídeo 1 -->
+    @foreach(var video in Model)  {
+        <!-- Início do Vídeo -->
         <div class="video">
             <div class="thumbnail">
-                <img src="@Url.Content(Model.Thumbnail)"
-                 alt="@Model.Name" />
+                <img src="@Url.Content(video.Thumbnail)"
+                 alt="@video.Name" />
             </div>
             <div class="details">
                 <div class="author">
-                    <img src="@Url.Content(Model.Channel.ChannelPicture)"
-                     alt="@Model.Channel.Name" />
+                    <img src="@Url.Content(video.Channel.ChannelPicture)"
+                     alt="@video.Channel.Name" />
                 </div>
                 <div class="title">
-                    <h3>@Model.Name</h3>
-                    <a href="">@Model.Channel.Name</a>
-                    <span>3M Visualizações • @Model.PassedTime</span>
+                    <h3>@video.Name</h3>
+                    <a href="">@video.Channel.Name</a>
+                    <span>3M Visualizações • @video.PassedTime</span>
                 </div>
             </div>
         </div>
-        <!-- Fim do Vídeo 1 -->
+        <!-- Fim do Vídeo -->
     }
 </div>
