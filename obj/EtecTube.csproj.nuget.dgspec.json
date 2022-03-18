@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj": {}
+    "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj": {
+    "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj",
         "projectName": "EtecTube",
-        "projectPath": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
+        "projectPath": "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\EtecTube\\obj\\",
+        "outputPath": "C:\\Users\\etec\\desktop\\EtecTube\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",

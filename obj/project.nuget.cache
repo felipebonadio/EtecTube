@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xM8sIdoAyjXo5J4YCEwlyX1ZBCAZH3CIpYU63B0ZRmRt3oZPPcBSAkrZ53LH+LmHbEW3WE1Am2nLYxKbKBEq/A==",
+  "dgSpecHash": "ulr+rWwSy2ge/+vyddIwyQAVMOjffzTbG600tx90IY1CvNz5H0Q3xSz+g77Te6V0yqkypwKxL0Q7Vx0ScKfvmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
+  "projectFilePath": "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etec\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.15\\microsoft.aspnetcore.cryptography.internal.5.0.15.nupkg.sha512",
