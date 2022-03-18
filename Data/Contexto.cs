@@ -15,6 +15,7 @@ namespace EtecTube.Data
 
         public DbSet<Channel> Channels { get; set; }
         public DbSet<Video> Videos { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -56,6 +57,17 @@ namespace EtecTube.Data
             {
                 entity.ToTable(name: "RoleClaims");
             });
+            #endregion
+
+            #region Database Relationships Many to Many - Comments
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.User)
+                .WithMany(u=>u.UserComments)
+                .HasForeignKey(c=>c.UserId);
+            modelBuilder.Entity<Comment>()
+                .HasOne( c=> c.Video)
+                .WithMany(v=>v.VideoComments)
+                .HasForeignKey(c=>c.VideoId);
             #endregion
 
             #region Populate Identity

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj": {}
+    "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj": {
+    "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
         "projectName": "EtecTube",
-        "projectPath": "C:\\Users\\etec\\desktop\\EtecTube\\EtecTube.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\desktop\\EtecTube\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\EtecTube\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.14, )"
+              "version": "[5.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

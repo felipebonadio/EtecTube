@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
+using System.Collections.Generic;
 namespace EtecTube.Models
 {
     [Table("User")]
@@ -16,5 +16,7 @@ namespace EtecTube.Models
         public int UserNameChangeLimit { get; set; } = 10;
 
         public byte[] ProfilePicture { get; set; }
+
+        public ICollection<Comment> UserComments { get; set; }
     }
 }

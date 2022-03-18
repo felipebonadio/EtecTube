@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace EtecTube.Models
 {
@@ -44,6 +45,8 @@ namespace EtecTube.Models
         public string PassedTime {
              get { return PassedTimeCalculated(); }
         }
+
+        public ICollection<Comment> VideoComments { get; set; }
 
         // Método Construtor
         public Video()
