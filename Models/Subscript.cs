@@ -1,11 +1,9 @@
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GalloTube.Models
 {
-    [Table("Subscript")]
     public class Subscript
     {
         [Key, Column(Order = 1)]
@@ -17,5 +15,7 @@ namespace GalloTube.Models
         public Guid ChannelId { get; set; }
         [ForeignKey("ChannelId")]
         public Channel Channel { get; set; }
+
+        public DateTime SubscriptedDate { get; set; } = DateTime.Now;
     }
 }

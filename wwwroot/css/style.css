@@ -201,7 +201,7 @@ hr {
 
 .single-video .thumb {
     width: 100%;
-    min-height: 170px;
+    min-height: 190px;
     border-radius: 2%;
 }
 
@@ -291,7 +291,7 @@ hr {
 }
 
 
-/* =============================================================================== */
+/* VIDEO PAGE CSS =============================================================================== */
 
 .for-video-page {
     padding: 1%;
@@ -517,9 +517,71 @@ hr {
         padding: 2px;
         font-size: 10px;
     }
-
 }
 
 .show-sidebar {
     visibility: hidden;
+}
+
+
+/* CHANNEL PAGE CSS =============================================================================== */
+
+.channel-container {
+    padding-left: 15%;
+    padding-right: 0;
+    padding-top: 0;
+    width: 85%;
+    background-color: #f9f9f9;
+}
+
+.banner {
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.channel-info {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.channel-info img {
+    border-radius: 50%;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.channel-info p {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.channel-info span {
+    color: #6a6a6a;
+}
+
+.channel-info div {
+    flex: 0.98;
+}
+
+.channel-info button {
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: red;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.widen-channel-container {
+    padding-left: 4%;
+    width: 95%;
 }

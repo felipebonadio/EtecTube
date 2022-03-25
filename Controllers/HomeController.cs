@@ -34,6 +34,12 @@ namespace GalloTube.Controllers
             return View(video);
         }
 
+        public IActionResult Channel(Guid Id)
+        {
+            var channel = _contexto.Channels.Where(c => c.Id == Id).Include(c => c.User).Include(c => c.Videos).SingleOrDefault();
+            return View(channel);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

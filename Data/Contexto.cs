@@ -1,130 +1,135 @@
 using System;
-using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using GalloTube.Models;
+using System.IO;
+using System.Collections.Generic;
 
 namespace GalloTube.Data
 {
     public class Contexto : IdentityDbContext<User>
     {
-        public Contexto(DbContextOptions<Contexto> options): base(options)
+        public Contexto(DbContextOptions<Contexto> options) : base(options)
         {
         }
 
         public DbSet<Channel> Channels { get; set; }
         public DbSet<Video> Videos { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Subscript> Subscripts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            
-            #region Identity Name Definition
-            // Renomeia a Tabela de Usuários
+
+            #region Entity Settings
             modelBuilder.Entity<User>(entity =>
             {
                 entity.ToTable(name: "User");
             });
-            // Renomeia a Tabela de Perfis
             modelBuilder.Entity<IdentityRole>(entity =>
             {
                 entity.ToTable(name: "Role");
             });
-            // Renomeia a Tabela de Perfis do Usuários
             modelBuilder.Entity<IdentityUserRole<string>>(entity =>
             {
                 entity.ToTable(name: "UserRoles");
             });
-            // Renomeia a Tabela de Regras dos Usuários
             modelBuilder.Entity<IdentityUserClaim<string>>(entity =>
             {
                 entity.ToTable(name: "UserClaims");
             });
-            // Renomeia a Tabela de Logins do Usuários
             modelBuilder.Entity<IdentityUserLogin<string>>(entity =>
             {
                 entity.ToTable(name: "UserLogins");
             });
-            // Renomeia a Tabela de Tokens do Usuários
             modelBuilder.Entity<IdentityUserToken<string>>(entity =>
             {
                 entity.ToTable(name: "UserTokens");
             });
-            // Renomeia a Tabela de Regras do Perfil
             modelBuilder.Entity<IdentityRoleClaim<string>>(entity =>
             {
                 entity.ToTable(name: "RoleClaims");
             });
             #endregion
 
-            #region Database Relationships Many to Many - Comments
+            #region Comment Relationship Many to Many
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.User)
                 .WithMany(u => u.UserComments)
                 .HasForeignKey(c => c.UserId);
+
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.Video)
                 .WithMany(v => v.VideoComments)
                 .HasForeignKey(c => c.VideoId);
             #endregion
 
-            #region Database Relationships Many to Many - Subscriptions
+            #region Subscript Concat Primary Key and Relationship Many to Many
             modelBuilder.Entity<Subscript>().HasKey(
-                s => new {s.UserId, s.ChannelId}
+                s => new { s.UserId, s.ChannelId }
             );
             modelBuilder.Entity<Subscript>()
                 .HasOne(s => s.User)
                 .WithMany(u => u.UserSubscriptions)
                 .HasForeignKey(s => s.UserId);
+            
             modelBuilder.Entity<Subscript>()
                 .HasOne(s => s.Channel)
                 .WithMany(c => c.Subscriptions)
                 .HasForeignKey(s => s.ChannelId);
             #endregion
 
-            #region Populate Identity
+            #region Populate Entity
+            // IDS DOS USUARIOS
             string ADMIN_ID = Guid.NewGuid().ToString();
             string MODERADOR_ID = Guid.NewGuid().ToString();
             string USUARIO_ID = Guid.NewGuid().ToString();
+
             modelBuilder.Entity<IdentityRole>().HasData(
-                new IdentityRole{
+                new IdentityRole
+                {
                     Id = ADMIN_ID,
                     Name = "Administrador",
                     NormalizedName = "ADMINISTRADOR"
                 },
-                new IdentityRole{
+                new IdentityRole
+                {
                     Id = MODERADOR_ID,
                     Name = "Moderador",
                     NormalizedName = "MODERADOR"
                 },
-                new IdentityRole{
+                new IdentityRole
+                {
                     Id = USUARIO_ID,
                     Name = "Usuario",
                     NormalizedName = "USUARIO"
                 }
             );
-            var hash = new PasswordHasher<User>();
-            byte[] avatarPic = File.ReadAllBytes(Directory.GetCurrentDirectory() 
-                + @"\wwwroot\img\avatar.png");
+            var hash1 = new PasswordHasher<User>();
+            var hash2 = new PasswordHasher<User>();
+            byte[] avatarPic = File.ReadAllBytes(Directory.GetCurrentDirectory() + @"\wwwroot\img\avatar.png");
             modelBuilder.Entity<User>().HasData(
-                new User{
+                new User
+                {
                     Id = ADMIN_ID,
                     FullName = "José Antonio Gallo Junior",
-                    Nickname = "Gallo",
-                    UserName = "Admin",
+                    Nickname = "Admin",
+                    UserName = "admin",
                     NormalizedUserName = "ADMIN",
                     Email = "admin@etectube.com.br",
                     NormalizedEmail = "ADMIN@ETECTUBE.COM.BR",
                     EmailConfirmed = true,
-                    PasswordHash = hash.HashPassword(null, "123456"),
-                    SecurityStamp = hash.GetHashCode().ToString(),
+                    PasswordHash = hash1.HashPassword(null, "123456"),
+                    SecurityStamp = hash1.GetHashCode().ToString(),
                     ProfilePicture = avatarPic
                 }
             );
+
             modelBuilder.Entity<IdentityUserRole<string>>().HasData(
-                new IdentityUserRole<string>{
+                new IdentityUserRole<string>
+                {
                     RoleId = ADMIN_ID,
                     UserId = ADMIN_ID
                 }
@@ -154,6 +159,7 @@ namespace GalloTube.Data
                     Id = guid[2],
                     Name = "Frog Leap Studios",
                     ChannelPicture = "~/img/Channels/frogleapstudios.jpg",
+                    Banner = "~/img/Banners/frog.jpg",
                     UserId = ADMIN_ID
                 },
                 new Channel()
@@ -174,7 +180,7 @@ namespace GalloTube.Data
             #endregion
 
             #region Populate Videos
-            modelBuilder.Entity<Video>().HasData(
+            var videos = new List<Video>(){
                 new Video()
                 {
                     Id = Guid.NewGuid(),
@@ -283,9 +289,21 @@ namespace GalloTube.Data
                     Dislikes = 0,
                     Visualizations = 8473
                 }
-            );
+            };
+            modelBuilder.Entity<Video>().HasData(videos);
             #endregion
-        
+
+            #region Populate Comments
+            var comments = new List<Comment>(){
+                new Comment(){
+                    Id = 1,
+                    UserId = ADMIN_ID,
+                    VideoId = videos[0].Id,
+                    CommentText = "Show"
+                }
+            };
+            modelBuilder.Entity<Comment>().HasData(comments);
+            #endregion
         }
     }
 }

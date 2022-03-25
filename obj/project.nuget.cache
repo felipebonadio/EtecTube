@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6FTC70dOfaqZ/oe3maOCcApyFr6Bq42HPhTav7e9uhMJP+4UG84P7uMZpUpbIgpL6kBBMm1Yy8Z8Y9ckMIhig==",
+  "dgSpecHash": "JHIemrQVmyEDJ7QtknMmNcJfMA0zTl5zhQNGynSzCSj4CipPPaK/r9ILZwADqjo3ozXXqeqZN/s7aZfyOr3fNg==",
   "success": true,
-  "projectFilePath": "Q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj",
+  "projectFilePath": "C:\\Users\\jose.gallo\\Desktop\\GalloTube\\GalloTube.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jose.gallo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jose.gallo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.15\\microsoft.aspnetcore.cryptography.internal.5.0.15.nupkg.sha512",

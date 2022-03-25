@@ -4,26 +4,28 @@
 }
 
 <div class="videos-container">
-        <div class="all-videos">
-            @foreach (var video in Model)
-            {
-                <div class="single-video">
-                    <a asp-action="Watch" asp-route-id="@video.Id">
-                        <img src="@Url.Content(video.Thumbnail)" class="thumb" alt="@video.Name">
-                    </a>
-                    <div class="flex-box">
+    <div class="all-videos">
+        @foreach (var video in Model)
+        {
+            <div class="single-video">
+                <a asp-action="Watch" asp-route-id="@video.Id">
+                    <img src="@Url.Content(video.Thumbnail)" class="thumb" alt="@video.Name">
+                </a>
+                <div class="flex-box">
+                    <a asp-action="Channel" asp-route-id="@video.ChannelId">
                         <img src="@Url.Content(video.Channel.ChannelPicture)" alt="@video.Channel.Name">
-                        <div class="video-details">
-                            <a asp-action="Watch" asp-route-id="@video.Id">@video.Name</a>
-                            <p><a asp-action="Channel" asp-route-id="@video.ChannelId">@video.Channel.Name</a></p>
-                            <p>@video.TextVisualizations • @video.PassedTime</p>
-                        </div>
+                    </a>
+                    <div class="video-details">
+                        <a asp-action="Watch" asp-route-id="@video.Id">@video.Name</a>
+                        <p><a asp-action="Channel" asp-route-id="@video.ChannelId">@video.Channel.Name</a></p>
+                        <p>@video.TextVisualizations • @video.PassedTime</p>
                     </div>
                 </div>
-            }
-        </div>
+            </div>
+        }
     </div>
+</div>
 
 @section Scripts {
-    <script src="~/js/index.js"></script>
+<script src="~/js/index.js"></script>
 }

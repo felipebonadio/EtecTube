@@ -21,9 +21,13 @@
                 </div>
                 <hr>
                 <div class="youtuber">
-                    <img src="@Url.Content(Model.Channel.ChannelPicture)" alt="@Model.Channel.Name">
+                    <a asp-action="Channel" asp-route-id="@Model.ChannelId">
+                        <img src="@Url.Content(Model.Channel.ChannelPicture)" alt="@Model.Channel.Name">
+                    </a>
                     <div>
-                        <p>@Model.Channel.Name</p>
+                        <p><a asp-action="Channel" asp-route-id="@Model.ChannelId">
+                            @Model.Channel.Name
+                        </a></p>
                         <span>123 mil inscritos </span>
                     </div>
                     <button>INSCREVER-SE</button>
@@ -45,7 +49,12 @@
                 @foreach (var comment in Model.VideoComments)
                 {
                     <div class="other-comments">
-                        <img src="~/img/user2.png">
+                        @if (comment.User.ProfilePicture != null) {
+                            <img alt="@comment.User.FullName" 
+                            src="data:image/*;base64,@(Convert.ToBase64String(comment.User.ProfilePicture))">
+                        } else{
+                            <img src="~/img/unnamed.jpg" alt="Usuário sem Foto">
+                        }
                         <div>
                             <h3>@comment.User.FullName <span>há 1 mês</span></h3>
                             <p>@comment.CommentText</p>
@@ -57,6 +66,7 @@
                         </div>
                     </div>
                 }
+                
             </div>
 
             <div class="suggested-videos">

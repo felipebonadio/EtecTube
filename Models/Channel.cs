@@ -21,6 +21,10 @@ namespace GalloTube.Models
         [Display(Name = "Foto do Canal")]
         public string ChannelPicture { get; set; }
 
+        [StringLength(200)]
+        [Display(Name = "Banner")]
+        public string Banner { get; set; }
+
         [Required]
         public string UserId { get; set; }
         [ForeignKey("UserId")]

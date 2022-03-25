@@ -1,5 +1,5 @@
 {
-  "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj",
+  "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\GalloTube.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,43 +15619,88 @@
   "RootNamespace": "GalloTube",
   "Documents": [
     {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Home\\Watch.cshtml",
-      "TargetPath": "Views\\Home\\Watch.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Home\\Channel.cshtml",
+      "TargetPath": "Views\\Home\\Channel.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Home\\Watch.cshtml",
+      "TargetPath": "Views\\Home\\Watch.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jose.gallo\\Desktop\\GalloTube\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

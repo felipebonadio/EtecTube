@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj": {}
+    "C:\\Users\\jose.gallo\\Desktop\\GalloTube\\GalloTube.csproj": {}
   },
   "projects": {
-    "Q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj": {
+    "C:\\Users\\jose.gallo\\Desktop\\GalloTube\\GalloTube.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj",
+        "projectUniqueName": "C:\\Users\\jose.gallo\\Desktop\\GalloTube\\GalloTube.csproj",
         "projectName": "GalloTube",
-        "projectPath": "Q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj",
+        "projectPath": "C:\\Users\\jose.gallo\\Desktop\\GalloTube\\GalloTube.csproj",
         "packagesPath": "C:\\Users\\jose.gallo\\.nuget\\packages\\",
-        "outputPath": "Q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\obj\\",
+        "outputPath": "C:\\Users\\jose.gallo\\Desktop\\GalloTube\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jose.gallo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Identity;
 using GalloTube.Data;
-using Microsoft.EntityFrameworkCore;
+using GalloTube.Models;
 
 namespace GalloTube
 {
@@ -29,7 +31,14 @@ namespace GalloTube
             services.AddDbContext<Contexto>(
                 options => options.UseMySql(conexao, ServerVersion.AutoDetect(conexao))
             );
+            services.AddIdentity<User, IdentityRole>(
+                options => options.SignIn.RequireConfirmedAccount = false
+            )
+                .AddEntityFrameworkStores<Contexto>()
+                .AddDefaultUI()
+                .AddDefaultTokenProviders();
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +59,7 @@ namespace GalloTube
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -57,6 +67,7 @@ namespace GalloTube
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }
