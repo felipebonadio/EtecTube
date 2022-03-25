@@ -3,9 +3,9 @@ using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using EtecTube.Models;
+using GalloTube.Models;
 
-namespace EtecTube.Data
+namespace GalloTube.Data
 {
     public class Contexto : IdentityDbContext<User>
     {
@@ -20,7 +20,7 @@ namespace EtecTube.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
+            
             #region Identity Name Definition
             // Renomeia a Tabela de Usuários
             modelBuilder.Entity<User>(entity =>
@@ -62,12 +62,26 @@ namespace EtecTube.Data
             #region Database Relationships Many to Many - Comments
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.User)
-                .WithMany(u=>u.UserComments)
-                .HasForeignKey(c=>c.UserId);
+                .WithMany(u => u.UserComments)
+                .HasForeignKey(c => c.UserId);
             modelBuilder.Entity<Comment>()
-                .HasOne( c=> c.Video)
-                .WithMany(v=>v.VideoComments)
-                .HasForeignKey(c=>c.VideoId);
+                .HasOne(c => c.Video)
+                .WithMany(v => v.VideoComments)
+                .HasForeignKey(c => c.VideoId);
+            #endregion
+
+            #region Database Relationships Many to Many - Subscriptions
+            modelBuilder.Entity<Subscript>().HasKey(
+                s => new {s.UserId, s.ChannelId}
+            );
+            modelBuilder.Entity<Subscript>()
+                .HasOne(s => s.User)
+                .WithMany(u => u.UserSubscriptions)
+                .HasForeignKey(s => s.UserId);
+            modelBuilder.Entity<Subscript>()
+                .HasOne(s => s.Channel)
+                .WithMany(c => c.Subscriptions)
+                .HasForeignKey(s => s.ChannelId);
             #endregion
 
             #region Populate Identity
@@ -92,7 +106,8 @@ namespace EtecTube.Data
                 }
             );
             var hash = new PasswordHasher<User>();
-            byte[] avatarPic = File.ReadAllBytes(Directory.GetCurrentDirectory() + @"\wwwroot\img\avatar.png"); 
+            byte[] avatarPic = File.ReadAllBytes(Directory.GetCurrentDirectory() 
+                + @"\wwwroot\img\avatar.png");
             modelBuilder.Entity<User>().HasData(
                 new User{
                     Id = ADMIN_ID,
@@ -270,6 +285,7 @@ namespace EtecTube.Data
                 }
             );
             #endregion
+        
         }
     }
 }

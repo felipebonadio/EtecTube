@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using EtecTube.Models;
+using GalloTube.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -13,7 +13,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System.Net.Mail;
-namespace EtecTube.Areas.Identity.Pages.Account
+
+namespace GalloTube.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class LoginModel : PageModel
@@ -43,14 +44,16 @@ namespace EtecTube.Areas.Identity.Pages.Account
 
         public class InputModel
         {
-            [Required]
+            [Required(ErrorMessage = "Digite seu E-mail ou Nome de Usuário")]
+            [Display(Name = "E-mail / Usuário", Prompt = "E-mail / Usuário")]
             public string Email { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "Digite sua Senha de Acesso")]
             [DataType(DataType.Password)]
+            [Display(Name = "Senha", Prompt = "Senha")]
             public string Password { get; set; }
 
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Manter Conectado?")]
             public bool RememberMe { get; set; }
         }
 
@@ -80,11 +83,11 @@ namespace EtecTube.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var userName = Input.Email;
-                if(IsValidEmail(Input.Email)){
+                if (IsValidEmail(Input.Email))
+                {
                     var user = await _userManager.FindByEmailAsync(Input.Email);
-                    if (user != null){
+                    if (user != null)
                         userName = user.UserName;
-                    }
                 }
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
@@ -105,7 +108,7 @@ namespace EtecTube.Areas.Identity.Pages.Account
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Usuário e/ou Senha Inválidos.");
                     return Page();
                 }
             }
@@ -114,15 +117,17 @@ namespace EtecTube.Areas.Identity.Pages.Account
             return Page();
         }
 
-        public bool IsValidEmail(string emailaddress){
-            try{
+        public bool IsValidEmail(string emailaddress)
+        {
+            try
+            {
                 MailAddress m = new MailAddress(emailaddress);
                 return true;
             }
-            catch(FormatException){
+            catch(FormatException)
+            {
                 return false;
             }
         }
-
     }
 }

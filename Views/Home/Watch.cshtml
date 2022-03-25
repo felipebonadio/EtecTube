@@ -1,0 +1,222 @@
+@model GalloTube.Models.Video
+@{
+    ViewData["Title"] = "Watch";
+}
+
+<div class="videos-container for-video-page">
+        <div class="two-parts">
+            <div class="running-video">
+                <video src="~/img/video.mp4" controls></video>
+                <h3>@Model.Name</h3>
+                <div class="video-information">
+                    <p>@Model.TextVisualizations • @Model.PublishedDate.ToString("dd/MM/yyyy")</p>
+                    <div class="buttons">
+                        <i class="material-icons">thumb_up_off_alt<span>6.5 MIL</span></i>
+                        <i class="material-icons">thumb_down_off_alt<span>NÃO GOSTEI</span></i>
+                        <i class="material-icons">share<span>COMPARTILHAR</span></i>
+                        <i class="material-icons">content_cut<span>CLIPE</span></i>
+                        <i class="material-icons">playlist_add<span>SALVAR</span></i>
+                        <i class="material-icons">more_horiz</i>
+                    </div>
+                </div>
+                <hr>
+                <div class="youtuber">
+                    <img src="@Url.Content(Model.Channel.ChannelPicture)" alt="@Model.Channel.Name">
+                    <div>
+                        <p>@Model.Channel.Name</p>
+                        <span>123 mil inscritos </span>
+                    </div>
+                    <button>INSCREVER-SE</button>
+                </div>
+                <div class="video-description">
+                    <p>@Model.Description
+                    </p>
+                    <span class="video-description-more-less">MOSTRAR MAIS</span>
+                </div>
+                <hr>
+                <div class="video-comments">
+                    <span>@Model.VideoComments.Count() comentários</span>
+                    <i class="material-icons">playlist_add<span>ORDENAR POR</span></i>
+                </div>
+                <div class="add-comments">
+                    <img src="~/img/user3.png">
+                    <input type="text" placeholder="Adicionar um comentário...">
+                </div>
+                @foreach (var comment in Model.VideoComments)
+                {
+                    <div class="other-comments">
+                        <img src="~/img/user2.png">
+                        <div>
+                            <h3>@comment.User.FullName <span>há 1 mês</span></h3>
+                            <p>@comment.CommentText</p>
+                            <div class="react-to-comments">
+                                <i class="material-icons">thumb_up_off_alt<span></span></i>
+                                <i class="material-icons">thumb_down_off_alt<span></span></i>
+                                <span>RESPONDER</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="suggested-videos">
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum1.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum2.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum3.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum4.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum5.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum6.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum7.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum8.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum9.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum10.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum11.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum12.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum13.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum14.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum15.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum16.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum17.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum18.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="~/img/thum19.png"></a>
+                    <div class="video-details">
+                        <a href="">Titulo do Vídeo</a>
+                        <p>Canal</p>
+                        <p>123 mil visualizações</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section Scripts{
+    <script src="~/js/video.js"></script>
+}
+

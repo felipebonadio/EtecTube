@@ -1,20 +1,64 @@
 @using Microsoft.AspNetCore.Identity
-@inject SignInManager<EtecTube.Models.User> SignInManager
-@inject UserManager<EtecTube.Models.User> UserManager
+@inject SignInManager<GalloTube.Models.User> SignInManager
+@inject UserManager<GalloTube.Models.User> UserManager
 
-@if(SignInManager.IsSignedIn(User)) {
-    <a asp-area="Identity" asp-page="/Account/Manage/Index">
-        @if(UserManager.GetUserAsync(User).Result.ProfilePicture !=null) {
-            <img style="width:40px; height:40px; object-fit:cover; border-radius:30px"
-            src = "data:image/*;base64, @(Convert.ToBase64String(UserManager.GetUserAsync(User).Result.ProfilePicture))">
-        }  
-        else{
-            <i class="material-icons display-this">account_circle</i>
-        }  
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="dropdown">
+    <a href="#">
+        @if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
+        {
+            <img style="width:40px;height:40px; object-fit:cover; border-radius:30px"
+        src="data:image/*;base64,@(Convert.ToBase64String(UserManager.GetUserAsync(User).Result.ProfilePicture))">
+        }
+        else
+        {
+            <img style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="~/img/unnamed.jpg"
+        alt="Avatar do Usuário">
+        }
     </a>
+        <div class="dropdown-content">
+            <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Gerenciar Conta">Gerencie sua Conta</a>
+            <a href="https://academy.hubspot.com/">Sair</a>
+        </div>
+    </div>
 }
-else{
-    <a asp-area="Identity" asp-page="/Account/Login">
-        <i class="material-icons display-this">account_circle</i>
-    </a>
+else
+{
+    <a asp-area="Identity" asp-page="/Account/Login"><i class="material-icons">account_circle</i></a>
 }
+
+<style>
+    .dropdown {
+        display: inline-block;
+        position: relative;
+        
+    }
+    .dropdown-content {
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: -170px;
+        display: none;
+        position: absolute;
+        width: 200px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        background-color: #ffffff;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #d4d4d4;
+    }
+
+</style>

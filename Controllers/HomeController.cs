@@ -5,11 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using EtecTube.Models;
+using GalloTube.Models;
+using GalloTube.Data;
 using Microsoft.EntityFrameworkCore;
-using EtecTube.Data;
 
-namespace EtecTube.Controllers
+namespace GalloTube.Controllers
 {
     public class HomeController : Controller
     {
@@ -23,14 +23,15 @@ namespace EtecTube.Controllers
         }
 
         public IActionResult Index()
-        {      
-            var videos = _contexto.Videos.Include(v=> v.Channel).ToList();
+        {
+            var videos = _contexto.Videos.Include(v => v.Channel).ToList();
             return View(videos);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Watch(Guid Id)
         {
-            return View();
+            var video = _contexto.Videos.Where(v => v.Id == Id).Include(v => v.Channel).Include(v => v.VideoComments).ThenInclude(u => u.User).SingleOrDefault();
+            return View(video);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

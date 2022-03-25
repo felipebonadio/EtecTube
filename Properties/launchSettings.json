@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:61533",
-      "sslPort": 44382
+      "applicationUrl": "http://localhost:4013",
+      "sslPort": 44362
     }
   },
   "profiles": {
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "EtecTube": {
+    "GalloTube": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

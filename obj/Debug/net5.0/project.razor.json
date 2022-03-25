@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\EtecTube.csproj",
+  "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\GalloTube.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,41 +15616,46 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "EtecTube",
+  "RootNamespace": "GalloTube",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Home\\Watch.cshtml",
+      "TargetPath": "Views\\Home\\Watch.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\Home\\Index.cshtml",
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\EtecTube\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "q:\\Professores\\Gallo\\2022\\3º DS\\PW III\\GalloTube\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],

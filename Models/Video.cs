@@ -1,11 +1,11 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections.Generic;
 
-namespace EtecTube.Models
+namespace GalloTube.Models
 {
-    [Table("Video")]
+[Table("Video")]
     public class Video
     {
         [Key]
@@ -26,6 +26,7 @@ namespace EtecTube.Models
         public string Description { get; set; }
 
         [Display(Name = "Data de Publicação")]
+        [DataType(DataType.Date)]
         public DateTime PublishedDate { get; set; }
 
         [StringLength(200)]
@@ -37,14 +38,15 @@ namespace EtecTube.Models
 
         [Display(Name = "Não Gostei")]
         public uint Dislikes { get; set; }
-
+        
         [Display(Name = "Visualizações")]
         public uint Visualizations { get; set; }
 
         [NotMapped]
-        public string PassedTime {
-             get { return PassedTimeCalculated(); }
-        }
+        public string PassedTime { get => PassedTimeCalculated(); }
+
+        [NotMapped]
+        public string TextVisualizations { get => StringVisualizations(); }
 
         public ICollection<Comment> VideoComments { get; set; }
 
@@ -57,18 +59,29 @@ namespace EtecTube.Models
             Visualizations = 0;
         }
 
+        // Método privado para converter a data em periodo de tempo
         private string PassedTimeCalculated(){
             TimeSpan diff = DateTime.Now.Subtract(PublishedDate);
             if (diff.Days >= 365)
                 return $"há { diff.Days / 365 } "
-                    + ((diff.Days / 365) > 1 ? "anos" : "ano");
+                    + ((diff.Days/365) > 1 ? "anos" : "ano");
             else if (diff.Days >= 30)
                 return $"há { diff.Days / 30 } "
-                    + ((diff.Days / 365) > 1 ? "meses" : "mês");
-            else
-                return $"há { diff.Days } "
-                    + (diff.Days > 1 ? "dias" : "dia");
+                    + ((diff.Days/30) > 1 ? "meses" : "mês");
+            return $"há { diff.Days } "
+                    + ((diff.Days) > 1 ? "dias" : "dia");
         }
 
+        // Método privado para converter a quantidade de visualizações
+        private string StringVisualizations(){
+            if (Visualizations >= 1000000)
+                return $"{ (Visualizations / 1000000.0).ToString("N1") } mi de visualizações";
+            else if (Visualizations >= 100000)
+                return $"{ (Visualizations / 100000) } mil de visualizações";
+            else if (Visualizations >= 1000)
+                return $"{ (Visualizations / 1000.0).ToString("N1") } mil de visualizações";
+            else
+                return $"{ Visualizations } visualizações";
+        }
     }
 }

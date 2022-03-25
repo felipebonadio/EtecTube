@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using EtecTube.Models;
+using GalloTube.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace EtecTube.Areas.Identity.Pages.Account
+namespace GalloTube.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class LogoutModel : PageModel

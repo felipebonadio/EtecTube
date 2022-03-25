@@ -1,6 +1,6 @@
 using System;
 
-namespace EtecTube.Models
+namespace GalloTube.Models
 {
     public class ErrorViewModel
     {

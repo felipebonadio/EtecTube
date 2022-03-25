@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections.Generic;
-namespace EtecTube.Models
+
+namespace GalloTube.Models
 {
     [Table("User")]
     public class User : IdentityUser
@@ -18,5 +19,6 @@ namespace EtecTube.Models
         public byte[] ProfilePicture { get; set; }
 
         public ICollection<Comment> UserComments { get; set; }
+        public ICollection<Subscript> UserSubscriptions { get; set; }
     }
 }

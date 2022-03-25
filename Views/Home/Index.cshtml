@@ -1,32 +1,29 @@
-﻿@model IEnumerable<EtecTube.Models.Video>
+﻿@model IEnumerable<GalloTube.Models.Video>
 @{
     ViewData["Title"] = "Home Page";
 }
 
-@section Styles {
-    <link rel="stylesheet" href="~/css/index.css" />
-}
-
-<div class="videos">
-    @foreach(var video in Model)  {
-        <!-- Início do Vídeo -->
-        <div class="video">
-            <div class="thumbnail">
-                <img src="@Url.Content(video.Thumbnail)"
-                 alt="@video.Name" />
-            </div>
-            <div class="details">
-                <div class="author">
-                    <img src="@Url.Content(video.Channel.ChannelPicture)"
-                     alt="@video.Channel.Name" />
+<div class="videos-container">
+        <div class="all-videos">
+            @foreach (var video in Model)
+            {
+                <div class="single-video">
+                    <a asp-action="Watch" asp-route-id="@video.Id">
+                        <img src="@Url.Content(video.Thumbnail)" class="thumb" alt="@video.Name">
+                    </a>
+                    <div class="flex-box">
+                        <img src="@Url.Content(video.Channel.ChannelPicture)" alt="@video.Channel.Name">
+                        <div class="video-details">
+                            <a asp-action="Watch" asp-route-id="@video.Id">@video.Name</a>
+                            <p><a asp-action="Channel" asp-route-id="@video.ChannelId">@video.Channel.Name</a></p>
+                            <p>@video.TextVisualizations • @video.PassedTime</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    <h3>@video.Name</h3>
-                    <a href="">@video.Channel.Name</a>
-                    <span>3M Visualizações • @video.PassedTime</span>
-                </div>
-            </div>
+            }
         </div>
-        <!-- Fim do Vídeo -->
-    }
-</div>
+    </div>
+
+@section Scripts {
+    <script src="~/js/index.js"></script>
+}

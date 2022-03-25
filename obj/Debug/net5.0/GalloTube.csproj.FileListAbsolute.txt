@@ -1,0 +1,208 @@
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\appsettings.json
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.exe
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.deps.json
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.runtimeconfig.json
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.runtimeconfig.dev.json
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\ref\GalloTube.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.pdb
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.Views.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\GalloTube.Views.pdb
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.csproj.AssemblyReference.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.AssemblyInfoInputs.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.AssemblyInfo.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.csproj.CoreCompileInputs.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.RazorAssemblyInfo.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.RazorAssemblyInfo.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\scopedcss\bundle\GalloTube.styles.css
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\staticwebassets\GalloTube.StaticWebAssets.Manifest.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.TagHelpers.input.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.TagHelpers.output.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.RazorCoreGenerate.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.RazorTargetAssemblyInfo.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.RazorTargetAssemblyInfo.cs
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.Views.pdb
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.dll
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\ref\GalloTube.dll
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.pdb
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.genruntimeconfig.cache
+C:\Users\jose.gallo\Desktop\GalloTube\obj\Debug\net5.0\GalloTube.csproj.CopyComplete
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Humanizer.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\jose.gallo\Desktop\GalloTube\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\appsettings.Development.json
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\appsettings.json
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.exe
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.deps.json
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.runtimeconfig.json
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.runtimeconfig.dev.json
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ref\GalloTube.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.Views.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.Views.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Humanizer.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\MySqlConnector.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.csproj.AssemblyReference.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.AssemblyInfoInputs.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.AssemblyInfo.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.csproj.CoreCompileInputs.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.MvcApplicationPartsAssemblyInfo.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.RazorAssemblyInfo.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.RazorAssemblyInfo.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\scopedcss\bundle\GalloTube.styles.css
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\staticwebassets\GalloTube.StaticWebAssets.Manifest.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.TagHelpers.input.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.TagHelpers.output.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.RazorCoreGenerate.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.RazorTargetAssemblyInfo.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.RazorTargetAssemblyInfo.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.Views.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.csproj.CopyComplete
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\ref\GalloTube.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.genruntimeconfig.cache
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\GalloTube.StaticWebAssets.xml
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\Newtonsoft.Json.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Composition.Convention.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Composition.Hosting.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Composition.Runtime.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Composition.TypedParts.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Runtime.Caching.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\GalloTube.MvcApplicationPartsAssemblyInfo.cs
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\staticwebassets\GalloTube.StaticWebAssets.xml
+Q:\Professores\Gallo\2022\3º DS\PW III\GalloTube\obj\Debug\net5.0\Razor\Views\Home\Watch.cshtml.g.cs
